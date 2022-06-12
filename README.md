@@ -87,6 +87,7 @@ Leptomonas seymouri |
 #### Таблица с информацией по выбранным кластерам
 
 Номер кластера | навзвание вида | product_accession | имя
+---|---|---|---
 0 | Phytomonas sp. isolate EM1 | CCW62705.1 | NaN
 0 | Phytomonas sp. isolate Hart1 | CCW70538.1 | NaN
 0 | Perkinsela sp. CCAP 1560/4 | KNH08991.1 | 26S proteasome non-ATPase regulatory subunit 7
@@ -137,3 +138,104 @@ Leptomonas seymouri |
 9 | Perkinsela sp. CCAP 1560/4 | KNH08472.1	| tRNA (guanine-N(1)-)-methyltransferase
 9 | Leptomonas pyrrhocoris | KPA83425.1	| hypothetical protein
 9 | Leptomonas seymouri | KPI87030.1 | hypothetical protein
+
+# Множественное белковое выравнивание
+
+Для кластеров произведено множественное белоковое выравнивание на сайте https://www.ebi.ac.uk/Tools/msa/clustalo/. В качестве алгоритма для выравнивания был выбран алгоритм ```ClustalW with character counts```
+
+# Визуализация расположения участков Z-DNA для каждого выбранного кластера
+
+Номер кластера | Название вида | Визуализация
+---|---|---
+0 | Phytomonas sp. isolate EM1 | ![image](https://user-images.githubusercontent.com/28685693/173235512-a8409003-5de7-4eff-a94c-39a18c7059bd.png)
+
+0 | Phytomonas sp. isolate Hart1 | ![image](https://user-images.githubusercontent.com/28685693/173235515-6fd4c8b4-7474-4674-b714-09212d8cead9.png)
+
+0 | Perkinsela sp. CCAP 1560/4 | ![image](https://user-images.githubusercontent.com/28685693/173235518-ab18bda8-8384-4e30-a02f-15a7b7f428ab.png)
+
+0 | Leptomonas pyrrhocoris | ![image](https://user-images.githubusercontent.com/28685693/173235521-406f2331-1a2d-4e7d-a37f-6a42b08d9954.png)
+
+0 | Leptomonas seymouri | ![image](https://user-images.githubusercontent.com/28685693/173235522-a2ebd009-16cb-4b79-9ade-e7bfb8c18207.png)
+
+1 | Phytomonas sp. isolate EM1 | ![image](https://user-images.githubusercontent.com/28685693/173234283-a303ead8-ef38-4206-9403-3fa4f245dc84.png)
+
+1 | Phytomonas sp. isolate Hart1 | ![image](https://user-images.githubusercontent.com/28685693/173234285-b789604d-df66-4046-af30-13019e8fe7f3.png)
+
+1 | Perkinsela sp. CCAP 1560/4 | ![image](https://user-images.githubusercontent.com/28685693/173234289-22801241-a461-4fd3-b769-e14f7cd1edc8.png)
+
+1 | Leptomonas pyrrhocoris | ![image](https://user-images.githubusercontent.com/28685693/173234297-c093a344-624c-4792-8f01-caf58be2b85d.png)
+
+1 | Leptomonas seymouri | ![image](https://user-images.githubusercontent.com/28685693/173234301-5d536761-886f-480e-acc0-5691a7a25243.png)
+
+2 | Phytomonas sp. isolate EM1 | ![image](https://user-images.githubusercontent.com/28685693/173234305-fa3190ba-c71d-4ad1-b89d-64325514e9da.png)
+
+2 | Phytomonas sp. isolate Hart1 | ![image](https://user-images.githubusercontent.com/28685693/173234312-2710193d-0e87-4f0e-92ab-484eabdfc468.png)
+
+2 | Perkinsela sp. CCAP 1560/4 | ![image](https://user-images.githubusercontent.com/28685693/173234314-81a1d1ef-ffe1-4605-8a08-c3d3073418a3.png)
+
+2 | Leptomonas pyrrhocoris | ![image](https://user-images.githubusercontent.com/28685693/173234317-71569fdb-3ba0-4906-81bc-68b2b1dc17c5.png)
+
+2 | Leptomonas seymouri | ![image](https://user-images.githubusercontent.com/28685693/173234321-48bc39bf-3536-4cc2-a099-22350034bf54.png)
+
+3 | Phytomonas sp. isolate EM1 | ![image](https://user-images.githubusercontent.com/28685693/173234324-2daf185f-ea45-4c7d-9914-6fa4fabb8aac.png)
+
+3 | Phytomonas sp. isolate Hart1 | ![image](https://user-images.githubusercontent.com/28685693/173234327-a1944ddd-e926-46b1-9e5d-5a95ba746555.png)
+
+3 | Perkinsela sp. CCAP 1560/4 | ![image](https://user-images.githubusercontent.com/28685693/173234333-5f85b0be-82e9-48a8-9137-18912a3fb787.png)
+
+3 | Leptomonas pyrrhocoris | ![image](https://user-images.githubusercontent.com/28685693/173234336-d81741c7-238a-4ab2-b2fb-fb12b4555a3d.png)
+
+3 | Leptomonas seymouri | ![image](https://user-images.githubusercontent.com/28685693/173234339-221dc54e-9e45-409e-b764-d988d735b0dc.png)
+
+4 | Phytomonas sp. isolate EM1 | ![image](https://user-images.githubusercontent.com/28685693/173234344-85ed18d9-c089-481f-8515-c85f6dd9646e.png)
+
+4 | Phytomonas sp. isolate Hart1 | ![image](https://user-images.githubusercontent.com/28685693/173234346-f1acc7de-a60f-4f6b-98e4-df1ce5158a3d.png)
+
+4 | Perkinsela sp. CCAP 1560/4 | ![image](https://user-images.githubusercontent.com/28685693/173234354-24966a49-3ccd-4336-8c9c-58edb9885591.png)
+
+4 | Leptomonas pyrrhocoris | ![image](https://user-images.githubusercontent.com/28685693/173234358-4c571b4f-941e-454f-b791-a4a20fbb1390.png)
+
+4 | Leptomonas seymouri | ![image](https://user-images.githubusercontent.com/28685693/173234361-54c3dfa3-6ec9-4ef2-8486-1373e5810bc1.png)
+
+5 | Phytomonas sp. isolate EM1 | ![image](https://user-images.githubusercontent.com/28685693/173235625-1c19eeb5-4564-49c0-9857-01896892e2a8.png)
+
+5 | Phytomonas sp. isolate Hart1 | 
+5 | Perkinsela sp. CCAP 1560/4 | 
+5 | Leptomonas pyrrhocoris | 
+5 | Leptomonas seymouri | 
+6 | Phytomonas sp. isolate EM1 | ![image](https://user-images.githubusercontent.com/28685693/173234379-58961603-2057-4184-886c-40e5219e56c2.png)
+
+6 | Phytomonas sp. isolate Hart1 | ![image](https://user-images.githubusercontent.com/28685693/173234380-45ad9268-ce68-46f6-9978-d7882d6467eb.png)
+
+6 | Perkinsela sp. CCAP 1560/4 | ![image](https://user-images.githubusercontent.com/28685693/173234383-48b030df-a9ce-452d-b8c4-4ffda98360b8.png)
+
+6 | Leptomonas pyrrhocoris | ![image](https://user-images.githubusercontent.com/28685693/173234385-85f917e0-c2fc-48f5-b1c7-111743da2aed.png)
+
+6 | Leptomonas seymouri | ![image](https://user-images.githubusercontent.com/28685693/173234390-88cffa7a-2b78-4fa6-9ea4-483fa7bbb8e6.png)
+
+7 | Phytomonas sp. isolate EM1 | ![image](https://user-images.githubusercontent.com/28685693/173235531-6ccb6ded-243a-4f62-a468-2ff9a5ce5d92.png)
+
+7 | Phytomonas sp. isolate Hart1 | ![image](https://user-images.githubusercontent.com/28685693/173235533-40990e08-481c-41b1-a06f-dc17bd699cea.png)
+
+7 | Perkinsela sp. CCAP 1560/4 | ![image](https://user-images.githubusercontent.com/28685693/173235538-d4a103d5-db45-4054-9d4e-960a59906dbe.png)
+
+7 | Leptomonas pyrrhocoris | ![image](https://user-images.githubusercontent.com/28685693/173235543-a9c0843f-565b-49e0-bf2f-6bdf2850154c.png)
+
+7 | Leptomonas seymouri | ![image](https://user-images.githubusercontent.com/28685693/173235545-48b340c0-9d5d-42c0-a570-63d99640970f.png)
+
+8 | Phytomonas sp. isolate EM1 | ![image](https://user-images.githubusercontent.com/28685693/173235615-e0fe8e4f-1620-46c4-932d-1765649bed0a.png)
+
+8 | Phytomonas sp. isolate Hart1 | ![image](https://user-images.githubusercontent.com/28685693/173235617-5043dd2b-7a70-4dfc-ba35-6d868e02fba4.png)
+
+8 | Perkinsela sp. CCAP 1560/4 | 
+8 | Leptomonas pyrrhocoris | 
+8 | Leptomonas seymouri | 
+9 | Phytomonas sp. isolate EM1 | ![image](https://user-images.githubusercontent.com/28685693/173235589-cbaebdee-435f-4a7f-a4d5-b46cfca88284.png)
+
+9 | Phytomonas sp. isolate Hart1 | ![image](https://user-images.githubusercontent.com/28685693/173235592-857fda32-2aa7-4042-8496-b94fa01a6f35.png)
+
+9 | Perkinsela sp. CCAP 1560/4 | ![image](https://user-images.githubusercontent.com/28685693/173235598-6f039310-08df-43dc-b332-8d467f893ecb.png)
+
+9 | Leptomonas pyrrhocoris | ![image](https://user-images.githubusercontent.com/28685693/173235601-1bfa4d01-6bdb-4b3e-9a58-2f71e391098d.png)
+
+9 | Leptomonas seymouri | ![image](https://user-images.githubusercontent.com/28685693/173235603-648e2867-f963-4ccc-9ce8-32778a3386a5.png)
