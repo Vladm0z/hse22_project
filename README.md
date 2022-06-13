@@ -19,6 +19,8 @@
 ---
 # Анализ аннотированных генов
 
+Так как работа проводилась с эукариотами, в таблице представлно число генов, длина генома, длина участков с экзонами и покрытие экзонами
+
 Название вида | Число генов |	Длина генома | Длина участков с экзонами |	Доля покрытия экзонами
 ---|---|---|---|---
 Phytomonas sp. isolate EM1 | 6381.0 | 17780869.0 | 9395487.0 | 52.8
@@ -30,15 +32,15 @@ Leptomonas seymouri | 8597.0 | 27764161.0 | 15903750.0 | 57.3
 ---
 # Предсказываем участки Z-DNA
 
-В данном пункте было произведено предсказание участков Z-DNA с помощью программы zhunt. Далее были отобраны только те участки Z-DNA, у которых zh-score больше 500. По полученным данным были посчитаны некоторые показатели. Ниже представлены результаты для каждого генома.
+Было произведено предсказание участков Z-DNA с помощью программы zhunt. После чего отобраны участки Z-DNA, имеющие zh-score больше 500.
 
-Название вида | Количество предсказанных Z-DNA | Количество участков с zh-score > 500 |	Общая длина участков
----|---|---|---
-Phytomonas sp. isolate EM1 | | |
-Phytomonas sp. isolate Hart1 | | |
-Perkinsela sp. CCAP 1560/4 | | |
-Leptomonas pyrrhocoris | | |
-Leptomonas seymouri | | |
+Название вида | Количество предсказанных Z-DNA | Количество участков с zh-score > 500 
+---|---|---
+Phytomonas sp. isolate EM1 | 87160 | 7946
+Phytomonas sp. isolate Hart1 | 91070 | 8392
+Perkinsela sp. CCAP 1560/4 | 19196| 1742
+Leptomonas pyrrhocoris | 393207 | 34665
+Leptomonas seymouri | 31934 | 2816
 
 #### Гистограммы распределений
 
@@ -64,17 +66,6 @@ Perkinsela sp. CCAP 1560/4 | ![image](https://user-images.githubusercontent.com/
 Leptomonas pyrrhocoris | ![image](https://user-images.githubusercontent.com/28685693/173231404-afe129d2-0635-46f8-bce7-b9ec721dae81.png)
 Leptomonas seymouri | ![image](https://user-images.githubusercontent.com/28685693/173231406-9af419c6-6d10-4008-a307-b2b085348c0b.png)
 
-
-#### Визуализация генов и предсказанных участков Z-DNA с помощью IGV
-
-Название вида | Визуализация
----|---
-Phytomonas sp. isolate EM1 | 
-Phytomonas sp. isolate Hart1 | 
-Perkinsela sp. CCAP 1560/4 | 
-Leptomonas pyrrhocoris | 
-Leptomonas seymouri | 
-
 #  Определяем гомологичные связи между белками выбранных геномов
 
 #### Информация по полученным гомологичным кластерам
@@ -85,6 +76,8 @@ Leptomonas seymouri |
 ![image](https://user-images.githubusercontent.com/28685693/173231479-75d0f12d-f942-46e3-8fa7-44bf71ea3c52.png)
 
 #### Таблица с информацией по выбранным кластерам
+
+Были рассмотрены кластеры, имеющие значения 5 в стобцах Species	и Genes
 
 Номер кластера | навзвание вида | product_accession | имя
 ---|---|---|---
@@ -141,7 +134,7 @@ Leptomonas seymouri |
 
 # Множественное белковое выравнивание
 
-Для кластеров произведено множественное белоковое выравнивание на сайте https://www.ebi.ac.uk/Tools/msa/clustalo/. В качестве алгоритма для выравнивания был выбран алгоритм ```ClustalW with character counts```
+Для кластеров произведено множественное белоковое выравнивание на сайте https://www.ebi.ac.uk/Tools/msa/clustalo/. В качестве алгоритма для выравнивания был выбран алгоритм ```ClustalW with character counts```, результаты находятся в разделе data
 
 # Визуализация расположения участков Z-DNA для каждого выбранного кластера
 
